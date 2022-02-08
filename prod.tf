@@ -12,7 +12,7 @@ resource "aws_default_vpc" "default" {
 
 
 }
-
+#hello
 resource "aws_security_group" "prod_web" {
   name        = "prod_web"
   description = "Allow standard http and https ports inbound and outbound and everythong outbound"
